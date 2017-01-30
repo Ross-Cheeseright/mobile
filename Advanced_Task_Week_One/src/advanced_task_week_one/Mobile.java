@@ -30,10 +30,10 @@ public class Mobile
         onCall = false;
     }
     
-    // Constructur WITH parameters // ---------
+    // Constructor WITH parameters // ---------//
     // ***//
     
-    // Methods // -----------------------------
+    // Methods // -----------------------------//
     public void call()
     {
         if (onCall == true || power == false || signalStrength <= 0)
@@ -74,7 +74,7 @@ public class Mobile
         }
     }
     
-    // Getter Methods--------------------------
+    // Getter Methods--------------------------//
     public String getManufacturer()
     {
         return manufacturer;
@@ -105,7 +105,7 @@ public class Mobile
         return onCall;
     }
     
-    // Setter Methods -------------------------
+    // Setter Methods -------------------------//
     public void setManufacturer (String manufacturerIn)
     {
         manufacturer = manufacturerIn;
